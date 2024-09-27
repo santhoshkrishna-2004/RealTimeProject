@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@300;400;500;700&display=swap');
+* {
+    padding:0;
+    margin:0;
+    font-family:"Poppins","Roboto"sans-serif;
+    box-sizing: border-box;
+}
+ footer {
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #c94545;
+    font-size: 20px;
+}
+
+.social-icons {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+.social-icons a {
+    color: #fff;
+    font-size: 40px;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+.social-icons a.facebook:hover {
+    color: #3b5998; 
+}
+
+.social-icons a.whatsapp:hover {
+    color: #25D366; 
+}
+.google{
+    color:rgb(219, 50, 54);
+}
+
+.page-link{
+    text-decoration: none;
+}
+.nav-item:hover{
+    font-weight: bold;
+    transition: 0.4 ease-in-out;
+    text-decoration-line:none;
+}
+  .link-hover {
+    transition: all 0.5s ease;
+    text-decoration: none; 
+  }
+
+  .link-hover:hover {
+    transition: all 0.2s ease;
+    font-weight: 700;
+    text-decoration: underline;
+  }
+.navbar-toggler-icon{
+    color:blue;
+    font-weight: 900;
+}
+.navbar-toggler-icon:hover{
+    color:#fff;
+    font-weight: 900;
+    
+}
+img{
+    display: cover;
+    max-width: 100%;
+    height: auto;
+}

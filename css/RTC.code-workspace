@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../.."
+		},
+		{
+			"path": "../../../../RealTimeProject"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "RealTimeProject"
+	}
+}

@@ -1,0 +1,158 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column;
+    height: 100vh;
+    background-image: url('images/login-page.jpg');
+}
+section{
+  width:500px;
+  max-width:600px;
+  padding-top: 2rem;
+}
+.container {
+    background: #F8F9FD;
+    border-radius: 40px;
+    border: 1px solid rgb(25, 24, 24);
+  }
+  
+  .heading {
+    padding-top: 1rem;
+
+    text-align: center;
+    font-weight: 900;
+    font-size: 33px;
+    color: rgb(5, 156, 250);
+    font-family:monospace;
+  }
+  
+  .form .input {
+    width: 90%;
+    background: rgba(241, 235, 235, 0.542);
+    border: 0.5px solid black;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  
+  .form .input::-moz-placeholder {
+    color: rgb(170, 170, 170);
+  }
+  
+  .form .input::placeholder {
+    color: rgb(170, 170, 170);
+  }
+  
+  .form .input:focus {
+    outline: none;
+  }
+  
+  .form .forgot-password {
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 22px;
+  }
+  
+  .form .forgot-password a {
+    font-size: 13px;
+    color: #0099ff;
+    text-decoration: none;
+  }
+  
+  .form .login-button {
+    font-size:medium;
+    display: block;
+    width: 90%;
+    font-weight: bolder;
+    background: linear-gradient(45deg, rgb(0, 57, 93) 0%, rgb(18, 177, 209) 100%);
+    color: white;
+    padding-block: 15px;
+    margin: 20px auto;
+    border-radius: 20px;
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 20px 10px -15px;
+    border: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form .login-button:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 23px 10px -20px;
+  }
+  
+  .form .login-button:active {
+    transform: scale(0.95);
+    box-shadow: rgba(133, 189, 215, 0.8784313725) 0px 15px 10px -10px;
+  }
+  
+  .social-account-container {
+    margin-top: 25px;
+  }
+  
+  .social-account-container .title {
+    display: block;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(170, 170, 170);
+    margin-bottom: 10px;
+  }
+  
+  .social-account-container .social-accounts {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+  }
+  
+  
+  .agreement {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+  }
+  
+  .agreement a {
+    text-decoration: none;
+    color: #0099ff;
+    font-size: 9px;
+  }
+  .social-media {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .social-icon {
+    height: 46px;
+    width: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0.45rem;
+    color: #333;
+    border-radius: 50%;
+    border: 1px solid #333;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: 0.3s;
+  }
+ 
+  .social-icon>.x{
+    font-size: 40px;
+  }
+  .fa-facebook-f{
+  color:rgb(24, 119, 242);
+ }
+ .fa-google{
+ color: #f83329;
+ }
+ .fa-linkedin-in{
+  color: rgb(10, 102, 194);
+
+ }
+ 
