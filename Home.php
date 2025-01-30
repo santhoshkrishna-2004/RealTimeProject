@@ -26,7 +26,7 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="images/banner2.jpg" class="d-block w-100 " alt="...">
-        <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-caption d-none d-md-bLUE">
         </div>
       </div>
       <div class="carousel-item blood_img">
@@ -36,7 +36,7 @@
       </div>
         <div class="carousel-item blood_img">
           <img src="images/banner1.jpg" class="d-block w-100 img3" alt="...">
-          <div class="carousel-caption d-none d-md-block">
+          <div class="carousel-caption d-none d-md-bLUE">
           </div>
        </div>
 
