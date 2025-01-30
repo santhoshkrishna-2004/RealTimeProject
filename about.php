@@ -39,8 +39,8 @@
             font-style: italic;
         }
         .testimonial-carousel .carousel-item img {
-            border-radius: 50%;
-            margin-bottom: 20px;
+            border-radius: 60%;
+            margin-bottom: 30px;
         }
         @keyframes scroll {
             0% {
